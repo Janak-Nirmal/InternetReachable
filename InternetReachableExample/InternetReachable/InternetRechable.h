@@ -2,8 +2,9 @@
 //  InternetRechable.h
 //  InternetRechableExample
 //
-//  Created by _MyCompanyName_ on 22/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jennis on 05/28/13.
+//  Copyright 2013 Jennis. All rights reserved.
+//  See the file License.txt for copying permission.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,13 +1,13 @@
 //
-//  ClsInternetChecking.m
-//  iPhoneBasicStructure
+//  InternetRechable.m
+//  InternetRechableExample
 //
-//  Created by _MyCompanyName_ on 22/11/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Jennis on 05/28/13.
+//  Copyright 2013 Jennis. All rights reserved.
+//  See the file License.txt for copying permission.
 //
 
 #import "InternetRechable.h"
-#import "AppDelegate.h"
 
 @implementation InternetRechable
 
@@ -30,9 +30,8 @@
 
 -(void)setupLayout
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-
-    _noInternetView = [[UIView alloc] initWithFrame:appDelegate.window.frame];
+    UIWindow *mainWindow = [[UIApplication sharedApplication] keyWindow];
+    _noInternetView = [[UIView alloc] initWithFrame:mainWindow.frame];
     _noInternetView.backgroundColor = [UIColor clearColor];
     
     UIImageView *bgView = [[UIImageView alloc] initWithFrame:_noInternetView.frame];
@@ -86,15 +85,15 @@
 -(void)removeNoInternetView
 {
     [_noInternetView removeFromSuperview];
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    appDelegate.window.userInteractionEnabled = YES;
+    UIWindow *mainWindow = [[UIApplication sharedApplication] keyWindow];
+    mainWindow.userInteractionEnabled = YES;
 }
 
 -(void)addNoInternetView
 {
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    appDelegate.window.userInteractionEnabled = NO;
-    [appDelegate.window addSubview:_noInternetView];
+    UIWindow *mainWindow = [[UIApplication sharedApplication] keyWindow];
+    mainWindow.userInteractionEnabled = NO;
+    [mainWindow addSubview:_noInternetView];
 }
 
 @end
