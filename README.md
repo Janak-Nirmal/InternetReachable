@@ -2,7 +2,7 @@ InternetReachable
 =================
 
 ## Overview
-**InternetReachable** is a simple class that will allow you to stop user using your application in case of non availability of internet. You should use this class only if your application strongly rely on the internet availability and user can not use application at all.
+**InternetReachable** is a simple class that will allow you to stop user using your application in case of non availability of internet. You should use this class only if your application strongly rely on the internet availability and user can not use application at all once internet connection is lost.
 
 When internet connectivity is lost your application screen is covered with an image saying you are not connected to internet, and once internet connectivity is back application automatically remove that image and user can carry on using application.
 
