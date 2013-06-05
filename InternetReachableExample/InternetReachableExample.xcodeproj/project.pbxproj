@@ -19,9 +19,9 @@
 		9F6432C41754700C00C9B74F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6432C31754700C00C9B74F /* Default-568h@2x.png */; };
 		9F6432C71754700C00C9B74F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6432C61754700C00C9B74F /* ViewController.m */; };
 		9F6432CA1754700C00C9B74F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F6432C81754700C00C9B74F /* ViewController.xib */; };
-		9F6432D3175477B500C9B74F /* InternetRechable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6432D2175477B500C9B74F /* InternetRechable.m */; };
 		9F6432D71754838400C9B74F /* bg_no_internet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6432D51754838400C9B74F /* bg_no_internet@2x.png */; };
 		9F6432D81754838400C9B74F /* no_internet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6432D61754838400C9B74F /* no_internet@2x.png */; };
+		9FF6F622175F30ED006635D9 /* InternetReachable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6F621175F30ED006635D9 /* InternetReachable.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +42,10 @@
 		9F6432C51754700C00C9B74F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F6432C61754700C00C9B74F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9F6432C91754700C00C9B74F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		9F6432D1175477B500C9B74F /* InternetRechable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetRechable.h; sourceTree = "<group>"; };
-		9F6432D2175477B500C9B74F /* InternetRechable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetRechable.m; sourceTree = "<group>"; };
 		9F6432D51754838400C9B74F /* bg_no_internet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_no_internet@2x.png"; sourceTree = "<group>"; };
 		9F6432D61754838400C9B74F /* no_internet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_internet@2x.png"; sourceTree = "<group>"; };
+		9FF6F620175F30ED006635D9 /* InternetReachable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetReachable.h; sourceTree = "<group>"; };
+		9FF6F621175F30ED006635D9 /* InternetReachable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetReachable.m; sourceTree = "<group>"; };
 		C295C8F227C4412EB53AA431 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,8 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				9F6432D41754838400C9B74F /* Resource */,
-				9F6432D1175477B500C9B74F /* InternetRechable.h */,
-				9F6432D2175477B500C9B74F /* InternetRechable.m */,
+				9FF6F620175F30ED006635D9 /* InternetReachable.h */,
+				9FF6F621175F30ED006635D9 /* InternetReachable.m */,
 			);
 			path = InternetReachable;
 			sourceTree = SOURCE_ROOT;
@@ -243,7 +243,7 @@
 				9F6432BA1754700C00C9B74F /* main.m in Sources */,
 				9F6432BE1754700C00C9B74F /* AppDelegate.m in Sources */,
 				9F6432C71754700C00C9B74F /* ViewController.m in Sources */,
-				9F6432D3175477B500C9B74F /* InternetRechable.m in Sources */,
+				9FF6F622175F30ED006635D9 /* InternetReachable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

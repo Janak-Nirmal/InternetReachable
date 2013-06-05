@@ -20,7 +20,7 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
 
-    _internetReachable = [[InternetRechable alloc] init];
+    _internetReachable = [[InternetReachable alloc] init];
 
     return YES;
 }

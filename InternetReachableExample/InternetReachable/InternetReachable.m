@@ -1,6 +1,6 @@
 //
-//  InternetRechable.m
-//  InternetRechableExample
+//  InternetReachable.m
+//  InternetReachableExample
 //
 //  Created by Jennis on 05/28/13.
 //  Copyright 2013 Jennis. All rights reserved.
