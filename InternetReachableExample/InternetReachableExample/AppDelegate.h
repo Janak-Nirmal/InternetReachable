@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "InternetRechable.h"
+#import "InternetReachable.h"
 
 @class ViewController;
 
@@ -16,6 +16,6 @@
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) ViewController *viewController;
-@property (strong, nonatomic) InternetRechable *internetReachable;
+@property (strong, nonatomic) InternetReachable *internetReachable;
 
 @end
