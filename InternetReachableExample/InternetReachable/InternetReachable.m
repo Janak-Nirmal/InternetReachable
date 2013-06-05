@@ -7,9 +7,9 @@
 //  See the file License.txt for copying permission.
 //
 
-#import "InternetRechable.h"
+#import "InternetReachable.h"
 
-@implementation InternetRechable
+@implementation InternetReachable
 
 -(id)init
 {
