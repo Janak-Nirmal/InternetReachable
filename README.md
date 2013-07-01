@@ -9,7 +9,7 @@ When internet connectivity is lost your application screen is covered with an im
 ## How to use
 Declare `internetReachable` as property and it can be initialised as easy as follow in didFinishLaunchingWithOptions method:
 
-    _internetReachable = [[InternetRechable alloc] init];
+    _internetReachable = [[InternetReachable alloc] init];
 
 Thats it now relax.
 
