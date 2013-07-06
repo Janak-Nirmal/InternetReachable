@@ -30,21 +30,18 @@
 
 -(void)setupLayout
 {
-    UIWindow *mainWindow = [[UIApplication sharedApplication] keyWindow];
-    _noInternetView = [[UIView alloc] initWithFrame:mainWindow.frame];
+    _noInternetView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _noInternetView.backgroundColor = [UIColor clearColor];
     
     UIImageView *bgView = [[UIImageView alloc] initWithFrame:_noInternetView.frame];
-    [bgView setImage:[UIImage imageNamed:@"bg_no_internet@2x.png"]];
+    [bgView setImage:[UIImage imageNamed:@"bg_no_internet.png"]];
     [_noInternetView addSubview:bgView];
     
-    UIImage *noInternetImage = [UIImage imageNamed:@"no_internet@2x.png"];
+    UIImage *noInternetImage = [UIImage imageNamed:@"no_internet.png"];
     UIImageView *imgView = [[UIImageView alloc] initWithImage:noInternetImage];
-    [imgView setFrame:CGRectMake(0, 0, noInternetImage.size.width/2, noInternetImage.size.height/2)];
-    [imgView setCenter:_noInternetView.center];
     [_noInternetView addSubview:imgView];
+    [imgView setCenter:_noInternetView.center];
 }
-
 
 - (void)checkForInternetAvailability:(NSNotification *)notice
 {
