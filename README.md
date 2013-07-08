@@ -15,7 +15,7 @@ Thats it now relax.
 
 ##License
 
-LocationHelper is under the MIT Licence:
+InternetReachable is under the MIT Licence:
 
 Copyright (c) 2013 Jennis
 
