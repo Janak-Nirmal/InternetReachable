@@ -28,7 +28,7 @@
 	[_hostReachable startNotifier];
 }
 
--(void)setupLayout
+-(void)setupLayout 
 {
     _noInternetView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
     _noInternetView.backgroundColor = [UIColor clearColor];
